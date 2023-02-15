@@ -1,0 +1,41 @@
+OpenWrt is an open-source operating system based on the Linux kernel that is designed to run on embedded devices such as routers. Here are some common commands that are frequently used in OpenWrt:
+
+    Network Commands
+
+    ifconfig: Displays network interface configuration
+    ping: Tests network connectivity
+    route: Displays or modifies the routing table
+
+    Package Management Commands
+
+    opkg update: Updates the list of available packages
+    opkg install: Installs a package
+    opkg remove: Removes a package
+    opkg list: Displays a list of installed packages
+    opkg upgrade: Upgrades all installed packages
+
+    System Commands
+
+    reboot: Restarts the system
+    poweroff: Shuts down the system
+    logread: Displays system log messages
+    dmesg: Displays kernel log messages
+    free: Displays memory usage
+    top: Displays system resource usage
+    df: Displays disk space usage
+
+    File System Commands
+
+    cd: Changes the current directory
+    ls: Lists the contents of the current directory
+    mkdir: Creates a new directory
+    rmdir: Removes a directory
+    cp: Copies a file
+    mv: Moves a file
+    rm: Removes a file
+
+    Firewall Commands
+
+    iptables: Manages the firewall rules
+    uci set firewall.@rule[-1]: Modifies an existing firewall rule
+    uci delete firewall.@rule[-1]: Deletes an existing firewall rule
